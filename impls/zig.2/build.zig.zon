@@ -1,0 +1,14 @@
+.{
+    .name = .mal,
+    .version = "0.1.0",
+    .fingerprint = 0x87acf6f4d5a7c10c, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.14.1",
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "Makefile",
+        "run"
+    },
+}
